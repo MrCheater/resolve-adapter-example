@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "es6",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "strictBindCallApply": true,
+    "lib": ["ES2018"],
+    "strict": true,
+    "outDir": "lib",
+    "declarationDir": "types",
+    "types": ["jest", "node"]
+  },
+  "include": ["src"]
+}

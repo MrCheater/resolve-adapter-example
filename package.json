@@ -1,0 +1,22 @@
+{
+  "name": "resolve-adapter-example",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "prettier": "prettier --write \"**/**.{ts,json,js}\"",
+    "prepare": "tsc",
+    "test": "jest --verbose"
+  },
+  "dependencies": {
+    "sqlite": "3.0.6"
+  },
+  "devDependencies": {
+    "typescript": "3.9.6",
+    "jest": "26.1.0",
+    "ts-jest": "26.1.1",
+    "prettier": "2.0.5",
+    "@types/jest": "26.0.4",
+    "@types/node": "10.17.26"
+  }
+}
